@@ -119,7 +119,7 @@ header nav .container .menu li :is(a:hover, .activo) {
 
 
 /* fin  header */
-
+div
 /* inicio footer */
 
 
@@ -356,7 +356,50 @@ main section .flex .imagen:hover :is(.marco, .marco img) {
 /* final aboutus */
 
 
+/* incio blogs */
+
+main section {
+    padding: 2.125em 1.5em;
+}
+
+main .contenedor h2 {
+    color: black;
+    font-family: var(--fuentetitulos);
+    font-size: 2em;
+    text-align: center;
+}
+
+main .contenedor h2 span {
+    color: var(--colorprincipal);
+}
+
+main section .underline span {
+    position: absolute;
+    top: -0.4em;
+}
+
+main .contenedor .underline {
+    position: relative;
+    width: 6.250em;
+    margin: 0 auto;
+    color: var(--colorprincipal);
+    font-weight: 700;
+    text-align: center;
+}
+
+
+main .contenedor .underline hr {
+    color: var(--colorprincipal);
+}
+
+
+
+
+
+/* fin  blogs */
+
 /* mediasqueries */
+
 
 @media(min-width: 37.5em) {
 
