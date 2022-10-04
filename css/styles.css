@@ -351,30 +351,39 @@ main section .flex .imagen:hover :is(.marco, .marco img) {
 /* final aboutus */
 /* inicio de blosgs */
 
-main #ourblogs .grid article .fecha {
-    color: var(--colorprincipal);
-    margin: var(--margingrid) 0;
-}
+
 
 main article .fecha {
-    background-color: var(--colorprincipal);
-    color: black;
+    background-color: rgb(255, 117, 20);
+    color: white;
     padding: 0px 0px;
     width: 600px;
     height: 50px;
     width: 50px;
     position: relative;
-    top: 65px;
-
+    top: 50px;
     left: 0px;
+    opacity: 0.5;
 
 }
 
-main article small {
+main #ourblogs .grid article {
+    border-left: 0;
+}
+
+main article .red {
     color: var(--colorprincipal);
+    padding: 0 4px;
+
 }
 
+main #ourblogs p {
+    line-height: 1.25;
+}
 
+main #ourblogs .container h2 {
+    font-family: 'Handlee', cursive;
+}
 
 /*  fin de blosgs */
 /* mediasqueries */
