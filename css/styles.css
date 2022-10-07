@@ -382,10 +382,58 @@ main #ourblogs p {
 }
 
 main #ourblogs .container h2 {
-    font-family:
+    font-family: 'Handlee', cursive;
 }
 
 /*  fin de blosgs */
+
+/* incicio de menu */
+
+main .menublack {
+
+    background-color: black;
+
+}
+
+
+main .menublack .container2 h2 {
+    color: white;
+
+}
+
+main .menublack .container2 h3 {
+    color: white;
+}
+
+main .menublack .container2 li {
+    color: white;
+    padding: 10px;
+
+}
+
+main .menublack .container2 h3 span {
+    color: var(--colorprincipal);
+
+}
+
+main .menublack .container2 p {
+    color: white;
+    font-size: 400;
+
+}
+
+main .menublack .container2 article hr {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+main .menublack .container2 article .boton {
+    width: 300px;
+}
+
+/* fin de menu */
+
 /* mediasqueries */
 
 @media(min-width: 37.5em) {
@@ -431,7 +479,20 @@ main #ourblogs .container h2 {
         margin-top: 2.5em;
     }
 
+    main .menublack article {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    main .menublack.article figure .imagen img {
+        display: flex;
+        display: table-row;
+
+    }
+
 }
+
+
 
 @media(min-width: 62.75em) {
     /* 1004px pantallas  */
@@ -454,4 +515,43 @@ main #ourblogs .container h2 {
         display: inline-block;
     }
 
+    main .menublack .contaiiner2 article :last-child {
+        display: inline-block;
+        left: 100px;
+        right: 100px;
+        overflow: hidden;
+        line-height: 16px;
+        z-index: auto;
+        justify-content: space-between;
+        position: static;
+        text-align: justify;
+        flex-direction: column;
+
+    }
+
+    main .menublack .container2 #caja1 {
+        display: inline-table;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+    }
+
+
+
+    main .menublack .container2 #caja2 .imagen {
+        width: 20em;
+
+        justify-content: space-between;
+    }
+
+    main .menublack .container2 #caja2>div {
+
+        text-align: right;
+        position: absolute;
+        right: 0;
+        left: 0;
+
+
+    }
 }
